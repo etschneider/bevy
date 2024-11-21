@@ -580,6 +580,8 @@ mod impls {
 
     #[cfg(feature = "glam")]
     mod glam;
+    #[cfg(feature = "num-complex")]
+    mod num_complex;
     #[cfg(feature = "petgraph")]
     mod petgraph;
     #[cfg(feature = "smallvec")]
